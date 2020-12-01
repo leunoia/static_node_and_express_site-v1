@@ -1,0 +1,9 @@
+extends layout.pug
+
+block content 
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+    article.grid-container.portfolio-intro.portfolio-project
+        h1= err.status
+         p.lead.text-light 
+           = err.message
