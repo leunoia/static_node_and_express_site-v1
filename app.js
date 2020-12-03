@@ -1,5 +1,5 @@
 const express = require('express');
-const data = require('./data.json');
+const { projects } = require('./data.json');
 const app = express();
 
 app.set('view engine','pug');
@@ -7,15 +7,16 @@ app.set('view engine','pug');
 app.use('/static', express.static('public'));
 
 app.get('/', (req,res) => {
-    res.render('index',{ projects: data.projects })
+    res.render('index',{ projects })
 });
 
 app.get('/about',(req,res)=>{
     res.render('about',{ })
 })
 app.get('/project/:id',(req,res)=>{
-    if(data[req.params]){
-        res.render('project', {id: req.params})
+    const { id } = req.params
+    if(projects[id]){
+        res.render('project', { project: projects[id]})
     } else {
         const err = new Error ();
         err.status = 404
@@ -25,7 +26,7 @@ app.get('/project/:id',(req,res)=>{
 });
 app.use((req,res,next)=>{
     const err = new Error ();
-    err.status(404)
+    err.status = 404
     err.message = 'The page you are looking for does not exist, please try another page';
     next(err);
 });

@@ -1,40 +1,40 @@
 {
     "projects": [
         {
-            "id":"",
-            "project_name":"",
+            "id":"0",
+            "project_name":"Phrase Hunter",
             "description":"",
-            "technologies":"",
-            "live_link":"",
-            "github_link":"",
-            "image_urls":""
+            "technologies": ["HTML","CSS" , "Javascript"],
+            "live_link":"/static/oop_game_v2/index.html",
+            "github_link":"https://github.com/leunoia/oop_game_v2",
+            "image_urls":"/static/images/Phrase_Hunter.png"
         },
         {
-            "id":"",
-            "project_name":"",
+            "id":"1",
+            "project_name":"Event Registration Form",
             "description":"",
-            "technologies":"",
-            "live_link":"",
-            "github_link":"",
-            "image_urls":""
+            "technologies":["HTML", "Javascript"],
+            "live_link":"/static/interactive-form-v2/index.html",
+            "github_link":"https://github.com/leunoia/interactive-form-v2",
+            "image_urls":"/static/images/Form_submission.png"
         },
         {
-            "id":"",
-            "project_name":"",
-            "description":"",
-            "technologies":"",
-            "live_link":"",
-            "github_link":"",
-            "image_urls":""
+            "id":"2",
+            "project_name":"Public API request",
+            "description":"This application pulls from a random data base of made up user. It uses the received data to create a registery to look up the users",
+            "technologies":["HTTP", "Javascript"],
+            "live_link":"/static/public_api_request-v1/index.html",
+            "github_link":"https://github.com/leunoia/public_api_request-v1",
+            "image_urls":"/static/images/Public_API_Requests.png"
         },
         {
-            "id":"",
-            "project_name":"",
+            "id":"3",
+            "project_name":"Student Registry",
             "description":"",
-            "technologies":"",
-            "live_link":"",
-            "github_link":"",
-            "image_urls":""
+            "technologies":[],
+            "live_link":"/static/data-pagination-and-filtering-v1/index.html",
+            "github_link":"https://github.com/leunoia/data-pagination-and-filtering-v1",
+            "image_urls":"/static/images/Student_List.png"
         }
     ]
 }
