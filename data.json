@@ -3,11 +3,11 @@
         {
             "id":"0",
             "project_name":"Phrase Hunter",
-            "description":"",
+            "description":"This game is created by using OOP like Javascript. The user can try to guess the word within 5 tries, after this they must try again.",
             "technologies": ["HTML","CSS" , "Javascript"],
             "live_link":"/static/oop_game_v2/index.html",
             "github_link":"https://github.com/leunoia/oop_game_v2",
-            "image_urls":"/static/images/Phrase_Hunter.png"
+            "image_urls":["/static/images/Phrase_Hunter.png"]
         },
         {
             "id":"1",
@@ -16,7 +16,7 @@
             "technologies":["HTML", "Javascript"],
             "live_link":"/static/interactive-form-v2/index.html",
             "github_link":"https://github.com/leunoia/interactive-form-v2",
-            "image_urls":"/static/images/Form_submission.png"
+            "image_urls":["/static/images/Form_submission.png"]
         },
         {
             "id":"2",
@@ -25,7 +25,7 @@
             "technologies":["HTTP", "Javascript"],
             "live_link":"/static/public_api_request-v1/index.html",
             "github_link":"https://github.com/leunoia/public_api_request-v1",
-            "image_urls":"/static/images/Public_API_Requests.png"
+            "image_urls":["/static/images/Public_API_Requests.png"]
         },
         {
             "id":"3",
@@ -34,7 +34,7 @@
             "technologies":[],
             "live_link":"/static/data-pagination-and-filtering-v1/index.html",
             "github_link":"https://github.com/leunoia/data-pagination-and-filtering-v1",
-            "image_urls":"/static/images/Student_List.png"
+            "image_urls":["/static/images/Student_List.png"]
         }
     ]
 }
