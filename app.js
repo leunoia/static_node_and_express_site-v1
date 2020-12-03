@@ -28,7 +28,7 @@ app.get('/project/:id',(req,res)=>{
         const err = new Error ();
         err.status = 404
         err.message = 'The page you are looking for does not exist. Please try another page...';
-        res.render('error', { err });
+        res.render('not-found');
     }
 });
 // This creates 404 error.
