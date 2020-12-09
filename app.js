@@ -28,6 +28,7 @@ app.get('/project/:id',(req,res)=>{
         const err = new Error ();
         err.status = 404
         err.message = 'The page you are looking for does not exist. Please try another page...';
+        console.log(err);
         res.render('not-found');
     }
 });
@@ -45,6 +46,7 @@ app.use((req,res,next)=>{
 app.use((err,req,res,next) =>{
     if (err.status === 404) {
         res.status(404).render('error', { err });
+        console.log(err);
       } else {
         err.message = err.message || 'It appears there was an error.'
         res.status(err.status|| 500).render('error', { err }); 
