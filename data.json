@@ -35,6 +35,15 @@
             "live_link":"/static/data-pagination-and-filtering-v1/index.html",
             "github_link":"https://github.com/leunoia/data-pagination-and-filtering-v1",
             "image_urls":["/static/images/Student_List.png"]
+        },
+        {
+            "id":"4",
+            "project_name":"Random Quote Generator",
+            "description":"",
+            "technologies":[],
+            "live_link":"/static/data-pagination-and-filtering-v1/index.html",
+            "github_link":"https://github.com/leunoia/a-random-quote-generator-v1",
+            "image_urls":["/static/images/Student_List.png"]
         }
     ]
 }

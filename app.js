@@ -33,9 +33,11 @@ app.get('/project/:id',(req,res)=>{
 });
 // This creates 404 error.
 app.use((req,res,next)=>{
+    console.log()
     const err = new Error ();
     err.status = 404
     err.message = 'The page you are looking for does not exist. Please try another page...';
+    console.log(err);
     next(err);
 });
 // This handles all general errors. If the error handler above passses a 404 error it will print the 404 page. 
@@ -45,7 +47,8 @@ app.use((err,req,res,next) =>{
         res.status(404).render('error', { err });
       } else {
         err.message = err.message || 'It appears there was an error.'
-        res.status(err.status|| 500).render('error', { err });  
+        res.status(err.status|| 500).render('error', { err }); 
+        console.log(err);
       }
 });
 
