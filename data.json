@@ -3,7 +3,7 @@
         {
             "id":"0",
             "project_name":"Phrase Hunter",
-            "description":"This game is created by using OOP like Javascript. The user can try to guess the word within 5 tries, after this they must try again.",
+            "description":"This game is created by using OOP concepts in JS. The user can try to guess the word within 5 tries, after this they must try again.",
             "technologies": ["HTML","CSS" , "Javascript"],
             "live_link":"https://leunoia.github.io/oop_game_v2/",
             "github_link":"https://github.com/leunoia/oop_game_v2",
@@ -21,8 +21,8 @@
         {
             "id":"2",
             "project_name":"Public API request",
-            "description":"This application pulls from a random data base of made up user. It uses the received data to create a registery to look up the users",
-            "technologies":["HTTP", "Javascript"],
+            "description":"Pulls from a public API to get a database of random users. ",
+            "technologies":["HTTP", "Javascript", "API", "HTTP"],
             "live_link":"https://leunoia.github.io/public_api_request-v1/",
             "github_link":"https://github.com/leunoia/public_api_request-v1",
             "image_urls":["/static/images/Public_API_Requests.png"]
@@ -30,7 +30,7 @@
         {
             "id":"3",
             "project_name":"Student Registry",
-            "description":"This creates a database of users and divides them up into pages consisting of 12 users. The users can be searched through and the page will update with the user that meet the seach criteria. ",
+            "description":"This uses a database of users to divide them up into pages each consisting of 12 users. There is also a search function to find users in the database.",
             "technologies":["HTML","Javascript", "CSS"],
             "live_link":"https://leunoia.github.io/data-pagination-and-filtering-v1/",
             "github_link":"https://github.com/leunoia/data-pagination-and-filtering-v1",

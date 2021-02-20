@@ -12,12 +12,12 @@ block content
         p.lead.text-light= project.description
 
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Technologies
+        h6 Technologies & Concepts
         ul
           each technology in project.technologies
             li= technology
 
-        a.button.expanded(href=`${project.live_link}`) Live Demo
+        a.button.expanded(href=`${project.live_link}`, target="_blank", rel="noreferrer noopener") Live Demo
         a.button.expanded(href=`${project.github_link}`) GitHub Repo
     
     each link in project.image_urls
