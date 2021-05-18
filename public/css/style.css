@@ -63,7 +63,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background-image: url("../images/gradient5.png");
   color: #fff;
   box-shadow: none !important;
 }

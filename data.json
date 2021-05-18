@@ -2,6 +2,14 @@
     "projects": [
         {
             "id":"0",
+            "project_name":"Private Blockchain",
+            "description":"This project is an example of a private blockchain which can be hosted on server and receive requests from a client. The client can store data by signing with their private keys and  also retrieve data from the blockchain.",
+            "technologies":["Javascript","Postman", "Bitcoinjs-message","Crypto-js"],
+            "github_link":"https://github.com/leunoia/Private_Blockchain",
+            "image_urls":["/static/images/Private_Blockchain.png"]
+        },
+        {
+            "id":"1",
             "project_name":"Phrase Hunter",
             "description":"This game is created by using OOP concepts in JS. The user can try to guess the word within 5 tries, after this they must try again.",
             "technologies": ["HTML","CSS" , "Javascript"],
@@ -10,7 +18,7 @@
             "image_urls":["/static/images/Phrase_Hunter.png"]
         },
         {
-            "id":"1",
+            "id":"2",
             "project_name":"Event Registration Form",
             "description":"This a mockup of an event sign up form. The user can select different activities they would like to take part in during the event. Based on the activities they have chosen, other activities may become unavailable due to conflicting times.",
             "technologies":["HTML", "Javascript"],
@@ -19,7 +27,7 @@
             "image_urls":["/static/images/Form_submission.png"]
         },
         {
-            "id":"2",
+            "id":"3",
             "project_name":"Public API request",
             "description":"Pulls from a public API to get a database of random users. ",
             "technologies":["HTTP", "Javascript", "API", "HTTP"],
@@ -28,7 +36,7 @@
             "image_urls":["/static/images/Public_API_Requests.png"]
         },
         {
-            "id":"3",
+            "id":"4",
             "project_name":"Student Registry",
             "description":"This uses a database of users to divide them up into pages each consisting of 12 users. There is also a search function to find users in the database.",
             "technologies":["HTML","Javascript", "CSS"],
@@ -37,7 +45,7 @@
             "image_urls":["/static/images/Student_List.png"]
         },
         {
-            "id":"4",
+            "id":"5",
             "project_name":"Random Quote Generator",
             "description":"This creates a random quote every 10 seconds, the user can also click the button to trigger a new quote.",
             "technologies":["HTML","Javascript", "CSS"],
