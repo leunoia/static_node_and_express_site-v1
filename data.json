@@ -10,12 +10,12 @@
         },
         {
             "id":"1",
-            "project_name":"Phrase Hunter",
-            "description":"This game is created by using OOP concepts in JS. The user can try to guess the word within 5 tries, after this they must try again.",
-            "technologies": ["HTML","CSS" , "Javascript"],
+            "project_name":"SCNE DAO",
+            "description":"A DAO that can only be accessed through ownership of membership NFT. Once user has shown their membership card they can access the user portal where they have the ability to vote on ",
+            "technologies": ["3rdWeb","ethers.js" , "JS","React"],
             "live_link":"https://leunoia.github.io/oop_game_v2/",
             "github_link":"https://github.com/leunoia/oop_game_v2",
-            "image_urls":["/static/images/Phrase_Hunter.png"]
+            "image_urls":["/static/images/SCNE-DAO_logon_page.png"]
         },
         {
             "id":"2",
@@ -46,12 +46,12 @@
         },
         {
             "id":"5",
-            "project_name":"Random Quote Generator",
-            "description":"This creates a random quote every 10 seconds, the user can also click the button to trigger a new quote.",
-            "technologies":["HTML","Javascript", "CSS"],
-            "live_link":"https://leunoia.github.io/a-random-quote-generator-v1/",
-            "github_link":"https://github.com/leunoia/a-random-quote-generator-v1",
-            "image_urls":["/static/images/random_quote_generator.png"]
+            "project_name":"Phrase Hunter",
+            "description":"This game is created by using OOP concepts in JS. The user can try to guess the word within 5 tries, after this they must try again.",
+            "technologies": ["HTML","CSS" , "Javascript"],
+            "live_link":"https://leunoia.github.io/oop_game_v2/",
+            "github_link":"https://github.com/leunoia/oop_game_v2",
+            "image_urls":["/static/images/Phrase_Hunter.png"]
         }
     ]
 }

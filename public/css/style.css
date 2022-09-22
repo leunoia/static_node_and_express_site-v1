@@ -64,6 +64,8 @@ a:hover{
 .portfolio-me{
   padding: 20px;
   background-image: url("../images/gradient5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   box-shadow: none !important;
 }
