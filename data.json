@@ -13,9 +13,9 @@
             "project_name":"SCNE DAO",
             "description":"A DAO that can only be accessed through ownership of membership NFT. Once user has shown their membership card they can access the user portal where they have the ability to vote on ",
             "technologies": ["3rdWeb","ethers.js" , "JS","React"],
-            "live_link":"https://leunoia.github.io/oop_game_v2/",
-            "github_link":"https://github.com/leunoia/oop_game_v2",
-            "image_urls":["/static/images/SCNE-DAO_logon_page.png"]
+            "live_link":"https://leunoia.github.io/SCNE-DAO/",
+            "github_link":"https://github.com/leunoia/SCNE-DAO",
+            "image_urls":["/static/images/Form_submission.png"]
         },
         {
             "id":"2",
